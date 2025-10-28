@@ -44,7 +44,7 @@ check_ip_and_get_info() {
 # =============================================
 
 # Ambil data dari GitHub dengan timeout
-permission_file=$(curl -s --connect-timeout 10 https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/gnome)
+permission_file=$(curl -s --connect-timeout 10 https://raw.githubusercontent.com/mohamadrojib278/ijin/refs/heads/main/gnome)
 
 # Validasi file permission
 if [ -z "$permission_file" ]; then
@@ -97,12 +97,12 @@ biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 echo -e " ═════════════════════════════════════════════════"
 echo -e " [INFO] Downloading File"
 sleep 2
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/update "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/update.sh" && chmod +x /usr/bin/update
-wget -q -O /usr/bin/m-tcp "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/m-tcp.sh" && chmod +x /usr/bin/m-tcp
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/menu/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/update "https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/menu/update.sh" && chmod +x /usr/bin/update
+wget -q -O /usr/bin/m-tcp "https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/menu/m-tcp.sh" && chmod +x /usr/bin/m-tcp
 
-wget -q -O /usr/bin/m-theme "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/m-theme.sh" && chmod +x /usr/bin/m-theme
-wget -q -O /usr/bin/m-vmess "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/m-vmess.sh" && chmod +x /usr/bin/m-vmess
+wget -q -O /usr/bin/m-theme "https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/menu/m-theme.sh" && chmod +x /usr/bin/m-theme
+wget -q -O /usr/bin/m-vmess "https://raw.githubusercontent.com/mohamadrojib278/genom/refs/heads/main/menu/m-vmess.sh" && chmod +x /usr/bin/m-vmess
 wget -q -O /usr/bin/m-vless "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/m-vless.sh" && chmod +x /usr/bin/m-vless
 wget -q -O /usr/bin/m-trojan "https://raw.githubusercontent.com/hokagelegend9999/genom/refs/heads/main/menu/m-trojan.sh" && chmod +x /usr/bin/m-trojan
 
