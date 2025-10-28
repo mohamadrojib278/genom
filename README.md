@@ -6,7 +6,7 @@
 ```
 cd root
 rm update.sh
-wget https://github.com/hokagelegend9999/genom/raw/refs/heads/main/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://github.com/mohamadrojib278/genom/raw/refs/heads/main/menu/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 #### ALTERNATIF CERT :
